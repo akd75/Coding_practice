@@ -1,1 +1,1 @@
-Coding challenges I did in codewars.com
+Coding challenges I did on codewars.com
