@@ -13,8 +13,8 @@ You should only give the names of the capitals. Any additional information is ju
 If you get more than 3, you will be kicked out, for being too smart
 Also, this database is crowd-sourced, so sometimes Africa is written Africa and in other times Afrika.///
 
-select capital
-from countries
-where continent in ('Africa','Afrika') and country like 'E%'
-order by capital
-limit 3
+SELECT capital
+FROM countries
+WHERE continent IN ('Africa','Afrika') AND country LIKE 'E%'
+ORDER BY capital
+LIMIT 3
